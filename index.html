@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0f3e;
+        }
+        header {
+            background-image: url('Header.jpeg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            color: #37094a;
+            padding: 4rem 0;
+            text-align: center;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Optional: overlay for better text readability */
+        }
+        header h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #324a08;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .gallery img {
+            width: calc(33.333% - 1rem);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #380843;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Me</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Biography</h2>
+        <p>Hello! I'm Mubarak, a passionate photographer based somewhere in the universe. My interest are on Nature and Outdoor photography, and I love capturing the beauty of the world through my lens. My journey in photography began years back, and it has been an incredible adventure ever since.</p>
+    </section>
+    
+    <section>
+        <h2>My Photography Philosophy</h2>
+        <p>I believe that photography is not just about taking pictures, but about capturing moments and telling stories. Each photograph is a piece of art that reflects a unique perspective and a specific emotion. I strive to create images that are not only visually appealing but also emotionally impactful.</p>
+    </section>
+    
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="Luffy.jpeg" alt="Photo 1">
+            <img src="Consoles.jpeg" alt="Photo 2">
+            <img src="Cute.jpeg" alt="Photo 3">
+            <img src="ESC.jpeg" alt="Photo 4">
+            <img src="Japan Traffic Light.jpeg" alt="Photo 5">
+            <img src="Japan Traffic Light.jpeg" alt="Photo 6">
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 SoulCare Hub. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
